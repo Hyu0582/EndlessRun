@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Road
+  - Sword
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Road
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: background
+    uniqueID: 2766504155
+    locked: 0
+  - name: trap
+    uniqueID: 2961033545
+    locked: 0
+  - name: road
+    uniqueID: 819272895
+    locked: 0
+  - name: player
+    uniqueID: 2031750807
+    locked: 0
+  - name: UI
+    uniqueID: 2097595583
+    locked: 0
+  - name: Flying
+    uniqueID: 915974791
+    locked: 0
+  m_RenderingLayers:
+  - Default
