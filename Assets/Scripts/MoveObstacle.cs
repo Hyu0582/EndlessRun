@@ -2,18 +2,23 @@ using UnityEngine;
 
 public class MoveObstacle : MonoBehaviour
 {
-    [SerializeField] private float baseSpeed = 10f;
     [SerializeField] private float deadZOne = -15f;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private GameManager gameManager;
+    private float deltaSpeed = 4f;
+    void Awake()
     {
-
+        gameManager = FindAnyObjectByType<GameManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position += Vector3.left * baseSpeed * Time.deltaTime;
+        float speed = gameManager.GetCurrentSpeed();
+        if (gameObject.GetComponent<SpriteRenderer>().sortingLayerName == "Flying")
+        {
+            speed += deltaSpeed;
+        }
+        transform.Translate(speed * Time.deltaTime * Vector2.left);
     }
     void FixedUpdate()
     {

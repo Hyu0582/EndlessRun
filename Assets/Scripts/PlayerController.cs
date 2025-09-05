@@ -2,17 +2,18 @@ using System;
 using System.Collections;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : DontDestroy
 {
-    private BoxCollider2D boxColl;
-    private CircleCollider2D circleColl;
+    //private BoxCollider2D boxColl;
+    private CapsuleCollider2D capsuleColl;
     private Rigidbody2D rigidBody;
     private Animator animator;
 
     [SerializeField] private AudioManager audioManager;
-    [SerializeField] private int gravityScaleNormal = 5;
-    [SerializeField] private int gravityScaleUnder = -30;
+    private int gravityScaleNormal = 5;
+    private int gravityScaleUnder = -5;
 
+    //
     private bool isUnder;
     private bool isGrounded;
     private bool isDoubleJump;
@@ -23,23 +24,22 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float jumpForce = 16;
     public float baseSpeed = 10f;
     public float speed = 10f;
-    [SerializeField] private Vector2 boxOffset;
+    //[SerializeField] private Vector2 boxOffset;
     private float velocityThreshold = 0.01f;
 
     //ground check raycast
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private Transform groundCheck;
 
-    void Start()
+    void Awake()
     {
-        boxColl = GetComponent<BoxCollider2D>();
-        circleColl = GetComponent<CircleCollider2D>();
+        //boxColl = GetComponent<BoxCollider2D>();
+        capsuleColl = GetComponent<CapsuleCollider2D>();
         rigidBody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         audioManager = FindAnyObjectByType<AudioManager>();
 
-
-        boxOffset = boxColl.offset;
+        //boxOffset = boxColl.offset;
 
         isUnder = false;
         isRolling = false;
@@ -118,12 +118,12 @@ public class PlayerController : MonoBehaviour
         }
         else if (canDoubleJump)
         {
-            rigidBody.linearVelocity = new Vector2(rigidBody.linearVelocity.x, jumpForce);
+            rigidBody.linearVelocity = new Vector2(rigidBody.linearVelocity.x, jumpForce * 0.9f);
             isRolling = true;
             canDoubleJump = false; // Vô hiệu hóa nhảy kép sau khi sử dụng
             isDoubleJump = true;
             speed = 0;
-            
+
             audioManager.PlaySfxJump();
         }
     }
@@ -139,10 +139,10 @@ public class PlayerController : MonoBehaviour
 
     private IEnumerator MoveUnderGround()
     {
-        float duration = 0.375f; // Thời gian di chuyển và animation
+        float duration = 0.25f; // Thời gian di chuyển và animation
         float elapsed = 0f;
         Vector3 startPos = transform.position;
-        Vector3 targetPos = new Vector3(transform.position.x, yUnder, transform.position.z);
+        Vector3 targetPos = new(transform.position.x, yUnder, transform.position.z);
 
         while (elapsed < duration)
         {
@@ -161,10 +161,10 @@ public class PlayerController : MonoBehaviour
 
     private IEnumerator MoveToNormal()
     {
-        float duration = 0.375f; // Thời gian di chuyển và animation
+        float duration = 0.25f; // Thời gian di chuyển và animation
         float elapsed = 0f;
         Vector3 startPos = transform.position;
-        Vector3 targetPos = new Vector3(transform.position.x, yNormal, transform.position.z);
+        Vector3 targetPos = new(transform.position.x, yNormal, transform.position.z);
 
         while (elapsed < duration)
         {
@@ -196,17 +196,25 @@ public class PlayerController : MonoBehaviour
     }
     void UpdateCollision()
     {
+        // if (IsAnimationPlaying("roll"))
+        // {
+        //     boxColl.offset = new Vector2(boxOffset.x, 0);
+        // }
+        // else if (IsAnimationPlaying("jump") || IsAnimationPlaying("fall"))
+        // {
+        //     boxColl.offset = new Vector2(boxOffset.x, -0.4f);
+        // }
+        // else
+        // {
+        //     boxColl.offset = boxOffset;
+        // }
         if (IsAnimationPlaying("roll"))
         {
-            boxColl.offset = new Vector2(boxOffset.x, 0);
-        }
-        else if (IsAnimationPlaying("jump") || IsAnimationPlaying("fall"))
-        {
-            boxColl.offset = new Vector2(boxOffset.x, -0.4f);
+            capsuleColl.size = new Vector2(0.68f, 0.8f);
         }
         else
         {
-            boxColl.offset = boxOffset;
+            capsuleColl.size = new Vector2(0.68f, 1.6f);
         }
     }
     bool IsAnimationPlaying(string animationName)
@@ -215,5 +223,15 @@ public class PlayerController : MonoBehaviour
         AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
         // Kiểm tra nếu Animation Clip có tên khớp với animationName
         return stateInfo.IsName(animationName);
+    }
+    public override void ResetState()
+    {
+        transform.position = new Vector2(transform.position.x, yNormal);
+        FlipY(false);
+        rigidBody.gravityScale = gravityScaleNormal;
+        rigidBody.bodyType = RigidbodyType2D.Dynamic;
+        isRolling = false;
+        isUnder = false;
+        Debug.Log("Reset state - player");
     }
 }

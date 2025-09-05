@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4770850697667595533
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1690616476638855618, guid: 1bf5f9f04c47cc04f994c6cee510d89d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1690616476638855618, guid: 1bf5f9f04c47cc04f994c6cee510d89d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.7813854
+      objectReference: {fileID: 0}
+    - target: {fileID: 1690616476638855618, guid: 1bf5f9f04c47cc04f994c6cee510d89d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -16.844664
+      objectReference: {fileID: 0}
+    - target: {fileID: 1690616476638855618, guid: 1bf5f9f04c47cc04f994c6cee510d89d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1690616476638855618, guid: 1bf5f9f04c47cc04f994c6cee510d89d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1690616476638855618, guid: 1bf5f9f04c47cc04f994c6cee510d89d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1690616476638855618, guid: 1bf5f9f04c47cc04f994c6cee510d89d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1690616476638855618, guid: 1bf5f9f04c47cc04f994c6cee510d89d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1690616476638855618, guid: 1bf5f9f04c47cc04f994c6cee510d89d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1690616476638855618, guid: 1bf5f9f04c47cc04f994c6cee510d89d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1690616476638855618, guid: 1bf5f9f04c47cc04f994c6cee510d89d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8391898485455217676, guid: 1bf5f9f04c47cc04f994c6cee510d89d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fbe2290c78b3ea446a61dacb57b39653, type: 3}
+    - target: {fileID: 8866535448728940982, guid: 1bf5f9f04c47cc04f994c6cee510d89d, type: 3}
+      propertyPath: m_Name
+      value: GhostHalo
+      objectReference: {fileID: 0}
+    - target: {fileID: 9031030305088504079, guid: 1bf5f9f04c47cc04f994c6cee510d89d, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: cebf1fcb2cd429046bc9e0bffde23d7c, type: 2}
+    m_RemovedComponents:
+    - {fileID: -6398550851101462254, guid: 1bf5f9f04c47cc04f994c6cee510d89d, type: 3}
+    - {fileID: -254324733050136664, guid: 1bf5f9f04c47cc04f994c6cee510d89d, type: 3}
+    - {fileID: -7871252325647337195, guid: 1bf5f9f04c47cc04f994c6cee510d89d, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8866535448728940982, guid: 1bf5f9f04c47cc04f994c6cee510d89d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2214838203734773970}
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf5f9f04c47cc04f994c6cee510d89d, type: 3}
+--- !u!1 &4123384577513454779 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8866535448728940982, guid: 1bf5f9f04c47cc04f994c6cee510d89d, type: 3}
+  m_PrefabInstance: {fileID: 4770850697667595533}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2214838203734773970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4123384577513454779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ec56d0fd7b93a7438a16511b32e4979, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseSpeed: 10
+  deadZOne: -15

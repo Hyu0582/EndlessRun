@@ -1,0 +1,3380 @@
+fileFormatVersion: 2
+guid: 0f667ae2377affc47b31442f747ccfc5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5839743671990137343
+    second: WR_NightBoundSet_Spritesheet - Copy_0
+  - first:
+      213: 7284708416743323688
+    second: WR_NightBoundSet_Spritesheet - Copy_1
+  - first:
+      213: -3086752339411059322
+    second: WR_NightBoundSet_Spritesheet - Copy_2
+  - first:
+      213: -5487549772758638411
+    second: WR_NightBoundSet_Spritesheet - Copy_3
+  - first:
+      213: 2960176619581594047
+    second: WR_NightBoundSet_Spritesheet - Copy_4
+  - first:
+      213: -1222389976891462763
+    second: WR_NightBoundSet_Spritesheet - Copy_5
+  - first:
+      213: -8693472738321467221
+    second: WR_NightBoundSet_Spritesheet - Copy_6
+  - first:
+      213: -3781443018903699362
+    second: WR_NightBoundSet_Spritesheet - Copy_7
+  - first:
+      213: -507139354935215510
+    second: WR_NightBoundSet_Spritesheet - Copy_8
+  - first:
+      213: -5441879066899770083
+    second: WR_NightBoundSet_Spritesheet - Copy_9
+  - first:
+      213: 658293711199330022
+    second: WR_NightBoundSet_Spritesheet - Copy_10
+  - first:
+      213: 1045182942348334239
+    second: WR_NightBoundSet_Spritesheet - Copy_11
+  - first:
+      213: 5977035824807598723
+    second: WR_NightBoundSet_Spritesheet - Copy_12
+  - first:
+      213: 4361475518451161153
+    second: WR_NightBoundSet_Spritesheet - Copy_13
+  - first:
+      213: -4709726795070436251
+    second: WR_NightBoundSet_Spritesheet - Copy_14
+  - first:
+      213: 1281523504559089490
+    second: WR_NightBoundSet_Spritesheet - Copy_15
+  - first:
+      213: -5754760072374760950
+    second: WR_NightBoundSet_Spritesheet - Copy_16
+  - first:
+      213: 5153527085514916093
+    second: WR_NightBoundSet_Spritesheet - Copy_17
+  - first:
+      213: -5465779607282989110
+    second: WR_NightBoundSet_Spritesheet - Copy_18
+  - first:
+      213: 3614047301222161053
+    second: WR_NightBoundSet_Spritesheet - Copy_19
+  - first:
+      213: -5643334266469628490
+    second: WR_NightBoundSet_Spritesheet - Copy_20
+  - first:
+      213: 3507040638705072858
+    second: WR_NightBoundSet_Spritesheet - Copy_21
+  - first:
+      213: -7941068347031473961
+    second: WR_NightBoundSet_Spritesheet - Copy_22
+  - first:
+      213: -8979538252626013415
+    second: WR_NightBoundSet_Spritesheet - Copy_23
+  - first:
+      213: -3196684401429592116
+    second: WR_NightBoundSet_Spritesheet - Copy_24
+  - first:
+      213: 389808044535153131
+    second: WR_NightBoundSet_Spritesheet - Copy_25
+  - first:
+      213: -7480105800789695821
+    second: WR_NightBoundSet_Spritesheet - Copy_26
+  - first:
+      213: 7527933544302481736
+    second: WR_NightBoundSet_Spritesheet - Copy_27
+  - first:
+      213: 6028379028875950752
+    second: WR_NightBoundSet_Spritesheet - Copy_28
+  - first:
+      213: -8110869853665748106
+    second: WR_NightBoundSet_Spritesheet - Copy_29
+  - first:
+      213: 8591729143784938411
+    second: WR_NightBoundSet_Spritesheet - Copy_30
+  - first:
+      213: -735032822758839719
+    second: WR_NightBoundSet_Spritesheet - Copy_31
+  - first:
+      213: -9164792946158243105
+    second: WR_NightBoundSet_Spritesheet - Copy_32
+  - first:
+      213: 7593564140177272902
+    second: WR_NightBoundSet_Spritesheet - Copy_33
+  - first:
+      213: 8553695706056411166
+    second: WR_NightBoundSet_Spritesheet - Copy_34
+  - first:
+      213: 1579015770022203599
+    second: WR_NightBoundSet_Spritesheet - Copy_35
+  - first:
+      213: -856534910820352458
+    second: WR_NightBoundSet_Spritesheet - Copy_36
+  - first:
+      213: -4692896877342415682
+    second: WR_NightBoundSet_Spritesheet - Copy_37
+  - first:
+      213: -7738100771086761300
+    second: WR_NightBoundSet_Spritesheet - Copy_38
+  - first:
+      213: -9181946503190546148
+    second: WR_NightBoundSet_Spritesheet - Copy_39
+  - first:
+      213: -2307825123341475138
+    second: WR_NightBoundSet_Spritesheet - Copy_40
+  - first:
+      213: -4089469326761668822
+    second: WR_NightBoundSet_Spritesheet - Copy_41
+  - first:
+      213: 7020210188777856703
+    second: WR_NightBoundSet_Spritesheet - Copy_42
+  - first:
+      213: 5796588470477803966
+    second: WR_NightBoundSet_Spritesheet - Copy_43
+  - first:
+      213: -7043583836100767672
+    second: WR_NightBoundSet_Spritesheet - Copy_44
+  - first:
+      213: -9017141089887309778
+    second: WR_NightBoundSet_Spritesheet - Copy_45
+  - first:
+      213: -8361866476684020669
+    second: WR_NightBoundSet_Spritesheet - Copy_46
+  - first:
+      213: 6673676297963334021
+    second: WR_NightBoundSet_Spritesheet - Copy_47
+  - first:
+      213: -2910565796279117685
+    second: WR_NightBoundSet_Spritesheet - Copy_48
+  - first:
+      213: -6489499771150196646
+    second: WR_NightBoundSet_Spritesheet - Copy_49
+  - first:
+      213: -8510380984103943057
+    second: WR_NightBoundSet_Spritesheet - Copy_50
+  - first:
+      213: -8499039998092333092
+    second: WR_NightBoundSet_Spritesheet - Copy_51
+  - first:
+      213: -1026161720749587315
+    second: WR_NightBoundSet_Spritesheet - Copy_52
+  - first:
+      213: -7958232082356783205
+    second: WR_NightBoundSet_Spritesheet - Copy_53
+  - first:
+      213: 1633958874987495788
+    second: WR_NightBoundSet_Spritesheet - Copy_54
+  - first:
+      213: -9158375035042476668
+    second: WR_NightBoundSet_Spritesheet - Copy_55
+  - first:
+      213: -7860794482770001380
+    second: WR_NightBoundSet_Spritesheet - Copy_56
+  - first:
+      213: -1590210356296750593
+    second: WR_NightBoundSet_Spritesheet - Copy_57
+  - first:
+      213: 6293963370205640737
+    second: WR_NightBoundSet_Spritesheet - Copy_58
+  - first:
+      213: 853292672890906648
+    second: WR_NightBoundSet_Spritesheet - Copy_59
+  - first:
+      213: -2066319772152433812
+    second: WR_NightBoundSet_Spritesheet - Copy_60
+  - first:
+      213: 4621984943566230947
+    second: WR_NightBoundSet_Spritesheet - Copy_61
+  - first:
+      213: -2575896969737588486
+    second: WR_NightBoundSet_Spritesheet - Copy_62
+  - first:
+      213: 2753781947140141591
+    second: WR_NightBoundSet_Spritesheet - Copy_63
+  - first:
+      213: -3634893290119338449
+    second: WR_NightBoundSet_Spritesheet - Copy_64
+  - first:
+      213: 4212540014600769000
+    second: WR_NightBoundSet_Spritesheet - Copy_65
+  - first:
+      213: -7845641478237723230
+    second: WR_NightBoundSet_Spritesheet - Copy_66
+  - first:
+      213: -1075438597774588169
+    second: WR_NightBoundSet_Spritesheet - Copy_67
+  - first:
+      213: 1334092584481965899
+    second: WR_NightBoundSet_Spritesheet - Copy_68
+  - first:
+      213: 7219261485942593689
+    second: WR_NightBoundSet_Spritesheet - Copy_69
+  - first:
+      213: -6168950839688183069
+    second: WR_NightBoundSet_Spritesheet - Copy_70
+  - first:
+      213: -3829312354354862162
+    second: WR_NightBoundSet_Spritesheet - Copy_71
+  - first:
+      213: 3988631786398712395
+    second: WR_NightBoundSet_Spritesheet - Copy_72
+  - first:
+      213: -1122268736062438703
+    second: WR_NightBoundSet_Spritesheet - Copy_73
+  - first:
+      213: 1879320033892662462
+    second: WR_NightBoundSet_Spritesheet - Copy_74
+  - first:
+      213: 7682989999539523763
+    second: WR_NightBoundSet_Spritesheet - Copy_75
+  - first:
+      213: -5249416152789086220
+    second: WR_NightBoundSet_Spritesheet - Copy_76
+  - first:
+      213: -3346129296351869841
+    second: WR_NightBoundSet_Spritesheet - Copy_77
+  - first:
+      213: -8018264277088447377
+    second: WR_NightBoundSet_Spritesheet - Copy_78
+  - first:
+      213: -5304600465388970416
+    second: WR_NightBoundSet_Spritesheet - Copy_79
+  - first:
+      213: 9121265270338311390
+    second: WR_NightBoundSet_Spritesheet - Copy_80
+  - first:
+      213: -7364651840185341839
+    second: WR_NightBoundSet_Spritesheet - Copy_81
+  - first:
+      213: -3224343701010874487
+    second: WR_NightBoundSet_Spritesheet - Copy_82
+  - first:
+      213: 8860699034511399321
+    second: WR_NightBoundSet_Spritesheet - Copy_83
+  - first:
+      213: 6087737170582343703
+    second: WR_NightBoundSet_Spritesheet - Copy_84
+  - first:
+      213: 5847400524622998822
+    second: WR_NightBoundSet_Spritesheet - Copy_85
+  - first:
+      213: 4642227347870803771
+    second: WR_NightBoundSet_Spritesheet - Copy_86
+  - first:
+      213: -5625308546879611648
+    second: WR_NightBoundSet_Spritesheet - Copy_87
+  - first:
+      213: 3423158525042401271
+    second: WR_NightBoundSet_Spritesheet - Copy_88
+  - first:
+      213: 3386689721669344331
+    second: WR_NightBoundSet_Spritesheet - Copy_89
+  - first:
+      213: 8726598832616080750
+    second: WR_NightBoundSet_Spritesheet - Copy_90
+  - first:
+      213: 4822449021643009332
+    second: WR_NightBoundSet_Spritesheet - Copy_91
+  - first:
+      213: 3485433598308281700
+    second: WR_NightBoundSet_Spritesheet - Copy_92
+  - first:
+      213: -5254008703094096145
+    second: WR_NightBoundSet_Spritesheet - Copy_93
+  - first:
+      213: -4950099413354180155
+    second: WR_NightBoundSet_Spritesheet - Copy_94
+  - first:
+      213: -6688334491122175003
+    second: WR_NightBoundSet_Spritesheet - Copy_95
+  - first:
+      213: 7502077883474696341
+    second: WR_NightBoundSet_Spritesheet - Copy_96
+  - first:
+      213: -843665816229658944
+    second: WR_NightBoundSet_Spritesheet - Copy_97
+  - first:
+      213: 316561873248351220
+    second: WR_NightBoundSet_Spritesheet - Copy_98
+  - first:
+      213: 252104107554371599
+    second: WR_NightBoundSet_Spritesheet - Copy_99
+  - first:
+      213: 1530811415308822172
+    second: WR_NightBoundSet_Spritesheet - Copy_100
+  - first:
+      213: -4594098074371708125
+    second: WR_NightBoundSet_Spritesheet - Copy_101
+  - first:
+      213: -5535055193660171395
+    second: WR_NightBoundSet_Spritesheet - Copy_102
+  - first:
+      213: -8270752264798877321
+    second: WR_NightBoundSet_Spritesheet - Copy_103
+  - first:
+      213: -7949261381277727664
+    second: WR_NightBoundSet_Spritesheet - Copy_104
+  - first:
+      213: 3903392645534927565
+    second: WR_NightBoundSet_Spritesheet - Copy_105
+  - first:
+      213: 7267319466410822979
+    second: WR_NightBoundSet_Spritesheet - Copy_106
+  - first:
+      213: 5274134997016003040
+    second: WR_NightBoundSet_Spritesheet - Copy_107
+  - first:
+      213: -6449130596954522100
+    second: WR_NightBoundSet_Spritesheet - Copy_108
+  - first:
+      213: -620118264280053903
+    second: WR_NightBoundSet_Spritesheet - Copy_109
+  - first:
+      213: -7685314697332036999
+    second: WR_NightBoundSet_Spritesheet - Copy_110
+  - first:
+      213: 2553069805750107310
+    second: WR_NightBoundSet_Spritesheet - Copy_111
+  - first:
+      213: 808550684613466105
+    second: WR_NightBoundSet_Spritesheet - Copy_112
+  - first:
+      213: 7404302022913405275
+    second: WR_NightBoundSet_Spritesheet - Copy_113
+  - first:
+      213: 1027543562719686887
+    second: WR_NightBoundSet_Spritesheet - Copy_114
+  - first:
+      213: 8051546882213665142
+    second: WR_NightBoundSet_Spritesheet - Copy_115
+  - first:
+      213: -7912688617530146160
+    second: WR_NightBoundSet_Spritesheet - Copy_116
+  - first:
+      213: 7823624260813645610
+    second: WR_NightBoundSet_Spritesheet - Copy_117
+  - first:
+      213: 3852652880633035790
+    second: WR_NightBoundSet_Spritesheet - Copy_118
+  - first:
+      213: 9158929166541647206
+    second: WR_NightBoundSet_Spritesheet - Copy_119
+  - first:
+      213: -3949491145985345767
+    second: WR_NightBoundSet_Spritesheet - Copy_120
+  - first:
+      213: 2793273878289399956
+    second: WR_NightBoundSet_Spritesheet - Copy_121
+  - first:
+      213: -3492873495522021450
+    second: WR_NightBoundSet_Spritesheet - Copy_122
+  - first:
+      213: -8676737839846813072
+    second: WR_NightBoundSet_Spritesheet - Copy_123
+  - first:
+      213: 2774363376673093498
+    second: WR_NightBoundSet_Spritesheet - Copy_124
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 274
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10e41b3121015fea0800000000000000
+      internalID: -5839743671990137343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 261
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 828b84085bb781560800000000000000
+      internalID: 7284708416743323688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 260
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d3cc30a17a925d0800000000000000
+      internalID: -3086752339411059322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_3
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 275
+        width: 50
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b022735e8e48d3b0800000000000000
+      internalID: -5487549772758638411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_4
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 274
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb9d39aa3f8a41920800000000000000
+      internalID: 2960176619581594047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_5
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 274
+        width: 39
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59be262eac2390fe0800000000000000
+      internalID: -1222389976891462763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_6
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 275
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba87ecfba949a5780800000000000000
+      internalID: -8693472738321467221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_7
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 257
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e504dd7fb9d958bc0800000000000000
+      internalID: -3781443018903699362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_8
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 259
+        width: 45
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6a3771917746f8f0800000000000000
+      internalID: -507139354935215510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 258
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d151eca22df8a74b0800000000000000
+      internalID: -5441879066899770083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_10
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 259
+        width: 47
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eed8ed74aab22900800000000000000
+      internalID: 658293711199330022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_11
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 259
+        width: 31
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9458f3395c318e00800000000000000
+      internalID: 1045182942348334239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 241
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38ad07b3a62b2f250800000000000000
+      internalID: 5977035824807598723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_13
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 228
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14818dd30e2178c30800000000000000
+      internalID: 4361475518451161153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_14
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 225
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c00bede60b3aeb0800000000000000
+      internalID: -4709726795070436251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_15
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 242
+        width: 45
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 257ee8c66d2e8c110800000000000000
+      internalID: 1281523504559089490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_16
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 243
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0a4086443cf220b0800000000000000
+      internalID: -5754760072374760950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_17
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 243
+        width: 47
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df088786491058740800000000000000
+      internalID: 5153527085514916093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_18
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 242
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac7c257f766a524b0800000000000000
+      internalID: -5465779607282989110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_19
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 226
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a5ec65fdca72230800000000000000
+      internalID: 3614047301222161053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_20
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 227
+        width: 47
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b5c9426269dea1b0800000000000000
+      internalID: -5643334266469628490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_21
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 226
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adaffda31e28ba030800000000000000
+      internalID: 3507040638705072858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_22
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 227
+        width: 49
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d037167968abc190800000000000000
+      internalID: -7941068347031473961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 226
+        width: 33
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913d13de885426380800000000000000
+      internalID: -8979538252626013415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 214
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc7c1c1497813a3d0800000000000000
+      internalID: -3196684401429592116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_25
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 209
+        width: 63
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be18b19e950e86500800000000000000
+      internalID: 389808044535153131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_26
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 209
+        width: 41
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b2679dc763513890800000000000000
+      internalID: -7480105800789695821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_27
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 208
+        width: 80
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84195e08ca7987860800000000000000
+      internalID: 7527933544302481736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_28
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 211
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aab09b79ca19a350800000000000000
+      internalID: 6028379028875950752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_29
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 198
+        width: 32
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b14d067d6607f80800000000000000
+      internalID: -8110869853665748106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_30
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 193
+        width: 63
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab1ca5a224fb3770800000000000000
+      internalID: 8591729143784938411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_31
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 193
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95ae435ca83acc5f0800000000000000
+      internalID: -735032822758839719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_32
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 196
+        width: 62
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd27b346f5d10d080800000000000000
+      internalID: -9164792946158243105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_33
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 182
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64039626a52c16960800000000000000
+      internalID: 7593564140177272902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_34
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 182
+        width: 32
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e18c64cdce4d4b670800000000000000
+      internalID: 8553695706056411166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_35
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 180
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc0d9e21a7ac9e510800000000000000
+      internalID: 1579015770022203599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_36
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 179
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ef4d6690afc14f0800000000000000
+      internalID: -856534910820352458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_37
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 180
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb42772772b7fdeb0800000000000000
+      internalID: -4692896877342415682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_38
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 179
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca2823fc85ebc9490800000000000000
+      internalID: -7738100771086761300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_39
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 176
+        width: 42
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c19ffaaad4c239080800000000000000
+      internalID: -9181946503190546148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_40
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 180
+        width: 64
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb262871745f8ffd0800000000000000
+      internalID: -2307825123341475138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_41
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 165
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2fc38270594f37c0800000000000000
+      internalID: -4089469326761668822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_42
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 161
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbe9ea6d8fbcc6160800000000000000
+      internalID: 7020210188777856703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_43
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 164
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb154f3908e917050800000000000000
+      internalID: 5796588470477803966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_44
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 163
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 840d78fc1d9204e90800000000000000
+      internalID: -7043583836100767672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_45
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 164
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2030bf14fdacd280800000000000000
+      internalID: -9017141089887309778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_46
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 163
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34470061ebea4fb80800000000000000
+      internalID: -8361866476684020669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_47
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 162
+        width: 47
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5896c0efb39ad9c50800000000000000
+      internalID: 6673676297963334021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_48
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 162
+        width: 63
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88916144d79b97d0800000000000000
+      internalID: -2910565796279117685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_49
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 148
+        width: 41
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a502d9a475aa0f5a0800000000000000
+      internalID: -6489499771150196646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 147
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f64ce3bb59d05e980800000000000000
+      internalID: -8510380984103943057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_51
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 145
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdfaeddc6285d0a80800000000000000
+      internalID: -8499039998092333092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_52
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 148
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d840e901a5752c1f0800000000000000
+      internalID: -1026161720749587315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_53
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 147
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b97b10be51eae8190800000000000000
+      internalID: -7958232082356783205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_54
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 148
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c610a3190fcfca610800000000000000
+      internalID: 1633958874987495788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_55
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 148
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48dcc74cd6ae6e080800000000000000
+      internalID: -9158375035042476668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_56
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 145
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c12c422f019d8e290800000000000000
+      internalID: -7860794482770001380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_57
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 145
+        width: 65
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff9e8c23b107ee9e0800000000000000
+      internalID: -1590210356296750593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_58
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 130
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1287d6e9656a85750800000000000000
+      internalID: 6293963370205640737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_59
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 129
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8182b114a2187db00800000000000000
+      internalID: 853292672890906648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_60
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 129
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c63fc747d15f253e0800000000000000
+      internalID: -2066319772152433812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_61
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 132
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a5187e51d6942040800000000000000
+      internalID: 4621984943566230947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_62
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 128
+        width: 43
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af039cc8a53904cd0800000000000000
+      internalID: -2575896969737588486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_63
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 113
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 712fb2c3716673620800000000000000
+      internalID: 2753781947140141591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_64
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 115
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f266cf5afc34e8dc0800000000000000
+      internalID: -3634893290119338449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_65
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 115
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8edc56403d2f57a30800000000000000
+      internalID: 4212540014600769000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_66
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 130
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a5e19eb4aeae1390800000000000000
+      internalID: -7845641478237723230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_67
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 114
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6c6e11b464311f0800000000000000
+      internalID: -1075438597774588169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_68
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 113
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b47c7832326a38210800000000000000
+      internalID: 1334092584481965899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_69
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 113
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 998544a7218ff2460800000000000000
+      internalID: 7219261485942593689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_70
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 116
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e2c98355eb736aa0800000000000000
+      internalID: -6168950839688183069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_71
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 113
+        width: 43
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea7e9a8c3bc8bdac0800000000000000
+      internalID: -3829312354354862162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_72
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 113
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4280202a777a5730800000000000000
+      internalID: 3988631786398712395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_73
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 98
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d2c874d786ec60f0800000000000000
+      internalID: -1122268736062438703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_74
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 98
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebc727f1d9fa41a10800000000000000
+      internalID: 1879320033892662462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_75
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 98
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b09e67c2b67f9a60800000000000000
+      internalID: 7682989999539523763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_76
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 99
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ff0fc652d35627b0800000000000000
+      internalID: -5249416152789086220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_77
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 97
+        width: 43
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f644b6e22292091d0800000000000000
+      internalID: -3346129296351869841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_78
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 81
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6450f06f1769b090800000000000000
+      internalID: -8018264277088447377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_79
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 84
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e5e115bf54266b0800000000000000
+      internalID: -5304600465388970416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_80
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 84
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed45f94df6e359e70800000000000000
+      internalID: 9121265270338311390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_81
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 97
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1786353cb208bc990800000000000000
+      internalID: -7364651840185341839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_82
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 83
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f7a7bbc74d043d0800000000000000
+      internalID: -3224343701010874487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_83
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 81
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 999d2bd63d687fa70800000000000000
+      internalID: 8860699034511399321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_84
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 81
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7109082d3bcfb7450800000000000000
+      internalID: 6087737170582343703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_85
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 85
+        width: 28
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62d2699dbc3262150800000000000000
+      internalID: 5847400524622998822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_86
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 80
+        width: 43
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3761746d218c6040800000000000000
+      internalID: 4642227347870803771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_87
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 82
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d95474ea3eee1b0800000000000000
+      internalID: -5625308546879611648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_88
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 66
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ff9007ba80818f20800000000000000
+      internalID: 3423158525042401271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_89
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 69
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c5190cb50fffe20800000000000000
+      internalID: 3386689721669344331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_90
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 70
+        width: 30
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e658b6b176b1b1970800000000000000
+      internalID: 8726598832616080750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_91
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 68
+        width: 32
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d2672b5d7cce240800000000000000
+      internalID: 4822449021643009332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_92
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 66
+        width: 46
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46d606b146fbe5030800000000000000
+      internalID: 3485433598308281700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_93
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 66
+        width: 47
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feef345ebe20617b0800000000000000
+      internalID: -5254008703094096145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_94
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 74
+        width: 36
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c197207fc6bd4bb0800000000000000
+      internalID: -4950099413354180155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_95
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 52
+        width: 41
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e37ba577334e23a0800000000000000
+      internalID: -6688334491122175003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_96
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 66
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 598d2d9561cbc1860800000000000000
+      internalID: 7502077883474696341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_97
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 52
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cebd7af862ba44f0800000000000000
+      internalID: -843665816229658944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_98
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 52
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f37664b857a46400800000000000000
+      internalID: 316561873248351220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_99
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 52
+        width: 30
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f08f131a957af7300800000000000000
+      internalID: 252104107554371599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_100
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 52
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9668932fd88e3510800000000000000
+      internalID: 1530811415308822172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_101
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 50
+        width: 47
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32ba4c5542c7e30c0800000000000000
+      internalID: -4594098074371708125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_102
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 50
+        width: 46
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7b54b990a88f23b0800000000000000
+      internalID: -5535055193660171395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_103
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 50
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 779c76fa2a2683d80800000000000000
+      internalID: -8270752264798877321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_104
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 38
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 054c53604ec8ea190800000000000000
+      internalID: -7949261381277727664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_105
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 37
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dca4bf71ee2ab2630800000000000000
+      internalID: 3903392645534927565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_106
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 35
+        width: 30
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34dc2b00d84bad460800000000000000
+      internalID: 7267319466410822979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_107
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 36
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e1489216dd713940800000000000000
+      internalID: 5274134997016003040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_108
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 34
+        width: 47
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e3c6a14e51086a0800000000000000
+      internalID: -6449130596954522100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_109
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 35
+        width: 91
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1770bd269b5e467f0800000000000000
+      internalID: -620118264280053903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_110
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 34
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97a6f665007485590800000000000000
+      internalID: -7685314697332036999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_111
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 21
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eacb28a26735e6320800000000000000
+      internalID: 2553069805750107310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_112
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 21
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f7d843509c883b00800000000000000
+      internalID: 808550684613466105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_113
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 20
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b51b57dc57d51c660800000000000000
+      internalID: 7404302022913405275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_114
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 20
+        width: 29
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e075271d61924e00800000000000000
+      internalID: 1027543562719686887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_115
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 20
+        width: 47
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 679dfbefa37dcbf60800000000000000
+      internalID: 8051546882213665142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_116
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 3
+        width: 90
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092c6d520ab703290800000000000000
+      internalID: -7912688617530146160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_117
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 16
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a27ece950d8139c60800000000000000
+      internalID: 7823624260813645610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_118
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 4
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c7409f16f577530800000000000000
+      internalID: 3852652880633035790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_119
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 5
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66deda60d8d0b1f70800000000000000
+      internalID: 9158929166541647206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_120
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 4
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9173eff5ab69039c0800000000000000
+      internalID: -3949491145985345767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_121
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 4
+        width: 29
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49041dbfac3b3c620800000000000000
+      internalID: 2793273878289399956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_122
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 2
+        width: 47
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf6806df02d68fc0800000000000000
+      internalID: -3492873495522021450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_123
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 4
+        width: 46
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0729dbee7e8069780800000000000000
+      internalID: -8676737839846813072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WR_NightBoundSet_Spritesheet - Copy_124
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a77f378bac4808620800000000000000
+      internalID: 2774363376673093498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      WR_NightBoundSet_Spritesheet - Copy_0: -5839743671990137343
+      WR_NightBoundSet_Spritesheet - Copy_1: 7284708416743323688
+      WR_NightBoundSet_Spritesheet - Copy_10: 658293711199330022
+      WR_NightBoundSet_Spritesheet - Copy_100: 1530811415308822172
+      WR_NightBoundSet_Spritesheet - Copy_101: -4594098074371708125
+      WR_NightBoundSet_Spritesheet - Copy_102: -5535055193660171395
+      WR_NightBoundSet_Spritesheet - Copy_103: -8270752264798877321
+      WR_NightBoundSet_Spritesheet - Copy_104: -7949261381277727664
+      WR_NightBoundSet_Spritesheet - Copy_105: 3903392645534927565
+      WR_NightBoundSet_Spritesheet - Copy_106: 7267319466410822979
+      WR_NightBoundSet_Spritesheet - Copy_107: 5274134997016003040
+      WR_NightBoundSet_Spritesheet - Copy_108: -6449130596954522100
+      WR_NightBoundSet_Spritesheet - Copy_109: -620118264280053903
+      WR_NightBoundSet_Spritesheet - Copy_11: 1045182942348334239
+      WR_NightBoundSet_Spritesheet - Copy_110: -7685314697332036999
+      WR_NightBoundSet_Spritesheet - Copy_111: 2553069805750107310
+      WR_NightBoundSet_Spritesheet - Copy_112: 808550684613466105
+      WR_NightBoundSet_Spritesheet - Copy_113: 7404302022913405275
+      WR_NightBoundSet_Spritesheet - Copy_114: 1027543562719686887
+      WR_NightBoundSet_Spritesheet - Copy_115: 8051546882213665142
+      WR_NightBoundSet_Spritesheet - Copy_116: -7912688617530146160
+      WR_NightBoundSet_Spritesheet - Copy_117: 7823624260813645610
+      WR_NightBoundSet_Spritesheet - Copy_118: 3852652880633035790
+      WR_NightBoundSet_Spritesheet - Copy_119: 9158929166541647206
+      WR_NightBoundSet_Spritesheet - Copy_12: 5977035824807598723
+      WR_NightBoundSet_Spritesheet - Copy_120: -3949491145985345767
+      WR_NightBoundSet_Spritesheet - Copy_121: 2793273878289399956
+      WR_NightBoundSet_Spritesheet - Copy_122: -3492873495522021450
+      WR_NightBoundSet_Spritesheet - Copy_123: -8676737839846813072
+      WR_NightBoundSet_Spritesheet - Copy_124: 2774363376673093498
+      WR_NightBoundSet_Spritesheet - Copy_13: 4361475518451161153
+      WR_NightBoundSet_Spritesheet - Copy_14: -4709726795070436251
+      WR_NightBoundSet_Spritesheet - Copy_15: 1281523504559089490
+      WR_NightBoundSet_Spritesheet - Copy_16: -5754760072374760950
+      WR_NightBoundSet_Spritesheet - Copy_17: 5153527085514916093
+      WR_NightBoundSet_Spritesheet - Copy_18: -5465779607282989110
+      WR_NightBoundSet_Spritesheet - Copy_19: 3614047301222161053
+      WR_NightBoundSet_Spritesheet - Copy_2: -3086752339411059322
+      WR_NightBoundSet_Spritesheet - Copy_20: -5643334266469628490
+      WR_NightBoundSet_Spritesheet - Copy_21: 3507040638705072858
+      WR_NightBoundSet_Spritesheet - Copy_22: -7941068347031473961
+      WR_NightBoundSet_Spritesheet - Copy_23: -8979538252626013415
+      WR_NightBoundSet_Spritesheet - Copy_24: -3196684401429592116
+      WR_NightBoundSet_Spritesheet - Copy_25: 389808044535153131
+      WR_NightBoundSet_Spritesheet - Copy_26: -7480105800789695821
+      WR_NightBoundSet_Spritesheet - Copy_27: 7527933544302481736
+      WR_NightBoundSet_Spritesheet - Copy_28: 6028379028875950752
+      WR_NightBoundSet_Spritesheet - Copy_29: -8110869853665748106
+      WR_NightBoundSet_Spritesheet - Copy_3: -5487549772758638411
+      WR_NightBoundSet_Spritesheet - Copy_30: 8591729143784938411
+      WR_NightBoundSet_Spritesheet - Copy_31: -735032822758839719
+      WR_NightBoundSet_Spritesheet - Copy_32: -9164792946158243105
+      WR_NightBoundSet_Spritesheet - Copy_33: 7593564140177272902
+      WR_NightBoundSet_Spritesheet - Copy_34: 8553695706056411166
+      WR_NightBoundSet_Spritesheet - Copy_35: 1579015770022203599
+      WR_NightBoundSet_Spritesheet - Copy_36: -856534910820352458
+      WR_NightBoundSet_Spritesheet - Copy_37: -4692896877342415682
+      WR_NightBoundSet_Spritesheet - Copy_38: -7738100771086761300
+      WR_NightBoundSet_Spritesheet - Copy_39: -9181946503190546148
+      WR_NightBoundSet_Spritesheet - Copy_4: 2960176619581594047
+      WR_NightBoundSet_Spritesheet - Copy_40: -2307825123341475138
+      WR_NightBoundSet_Spritesheet - Copy_41: -4089469326761668822
+      WR_NightBoundSet_Spritesheet - Copy_42: 7020210188777856703
+      WR_NightBoundSet_Spritesheet - Copy_43: 5796588470477803966
+      WR_NightBoundSet_Spritesheet - Copy_44: -7043583836100767672
+      WR_NightBoundSet_Spritesheet - Copy_45: -9017141089887309778
+      WR_NightBoundSet_Spritesheet - Copy_46: -8361866476684020669
+      WR_NightBoundSet_Spritesheet - Copy_47: 6673676297963334021
+      WR_NightBoundSet_Spritesheet - Copy_48: -2910565796279117685
+      WR_NightBoundSet_Spritesheet - Copy_49: -6489499771150196646
+      WR_NightBoundSet_Spritesheet - Copy_5: -1222389976891462763
+      WR_NightBoundSet_Spritesheet - Copy_50: -8510380984103943057
+      WR_NightBoundSet_Spritesheet - Copy_51: -8499039998092333092
+      WR_NightBoundSet_Spritesheet - Copy_52: -1026161720749587315
+      WR_NightBoundSet_Spritesheet - Copy_53: -7958232082356783205
+      WR_NightBoundSet_Spritesheet - Copy_54: 1633958874987495788
+      WR_NightBoundSet_Spritesheet - Copy_55: -9158375035042476668
+      WR_NightBoundSet_Spritesheet - Copy_56: -7860794482770001380
+      WR_NightBoundSet_Spritesheet - Copy_57: -1590210356296750593
+      WR_NightBoundSet_Spritesheet - Copy_58: 6293963370205640737
+      WR_NightBoundSet_Spritesheet - Copy_59: 853292672890906648
+      WR_NightBoundSet_Spritesheet - Copy_6: -8693472738321467221
+      WR_NightBoundSet_Spritesheet - Copy_60: -2066319772152433812
+      WR_NightBoundSet_Spritesheet - Copy_61: 4621984943566230947
+      WR_NightBoundSet_Spritesheet - Copy_62: -2575896969737588486
+      WR_NightBoundSet_Spritesheet - Copy_63: 2753781947140141591
+      WR_NightBoundSet_Spritesheet - Copy_64: -3634893290119338449
+      WR_NightBoundSet_Spritesheet - Copy_65: 4212540014600769000
+      WR_NightBoundSet_Spritesheet - Copy_66: -7845641478237723230
+      WR_NightBoundSet_Spritesheet - Copy_67: -1075438597774588169
+      WR_NightBoundSet_Spritesheet - Copy_68: 1334092584481965899
+      WR_NightBoundSet_Spritesheet - Copy_69: 7219261485942593689
+      WR_NightBoundSet_Spritesheet - Copy_7: -3781443018903699362
+      WR_NightBoundSet_Spritesheet - Copy_70: -6168950839688183069
+      WR_NightBoundSet_Spritesheet - Copy_71: -3829312354354862162
+      WR_NightBoundSet_Spritesheet - Copy_72: 3988631786398712395
+      WR_NightBoundSet_Spritesheet - Copy_73: -1122268736062438703
+      WR_NightBoundSet_Spritesheet - Copy_74: 1879320033892662462
+      WR_NightBoundSet_Spritesheet - Copy_75: 7682989999539523763
+      WR_NightBoundSet_Spritesheet - Copy_76: -5249416152789086220
+      WR_NightBoundSet_Spritesheet - Copy_77: -3346129296351869841
+      WR_NightBoundSet_Spritesheet - Copy_78: -8018264277088447377
+      WR_NightBoundSet_Spritesheet - Copy_79: -5304600465388970416
+      WR_NightBoundSet_Spritesheet - Copy_8: -507139354935215510
+      WR_NightBoundSet_Spritesheet - Copy_80: 9121265270338311390
+      WR_NightBoundSet_Spritesheet - Copy_81: -7364651840185341839
+      WR_NightBoundSet_Spritesheet - Copy_82: -3224343701010874487
+      WR_NightBoundSet_Spritesheet - Copy_83: 8860699034511399321
+      WR_NightBoundSet_Spritesheet - Copy_84: 6087737170582343703
+      WR_NightBoundSet_Spritesheet - Copy_85: 5847400524622998822
+      WR_NightBoundSet_Spritesheet - Copy_86: 4642227347870803771
+      WR_NightBoundSet_Spritesheet - Copy_87: -5625308546879611648
+      WR_NightBoundSet_Spritesheet - Copy_88: 3423158525042401271
+      WR_NightBoundSet_Spritesheet - Copy_89: 3386689721669344331
+      WR_NightBoundSet_Spritesheet - Copy_9: -5441879066899770083
+      WR_NightBoundSet_Spritesheet - Copy_90: 8726598832616080750
+      WR_NightBoundSet_Spritesheet - Copy_91: 4822449021643009332
+      WR_NightBoundSet_Spritesheet - Copy_92: 3485433598308281700
+      WR_NightBoundSet_Spritesheet - Copy_93: -5254008703094096145
+      WR_NightBoundSet_Spritesheet - Copy_94: -4950099413354180155
+      WR_NightBoundSet_Spritesheet - Copy_95: -6688334491122175003
+      WR_NightBoundSet_Spritesheet - Copy_96: 7502077883474696341
+      WR_NightBoundSet_Spritesheet - Copy_97: -843665816229658944
+      WR_NightBoundSet_Spritesheet - Copy_98: 316561873248351220
+      WR_NightBoundSet_Spritesheet - Copy_99: 252104107554371599
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

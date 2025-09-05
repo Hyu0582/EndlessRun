@@ -23,11 +23,10 @@ public class ScoreManager : MonoBehaviour
 
     void Update()
     {
-        
-            IncreaseScore();
-            UpdateHighScore();
-            DisplayScore();
-        
+
+        IncreaseScore();
+        UpdateHighScore();
+        DisplayScore();
     }
 
     public void IncreaseScore()
@@ -47,12 +46,18 @@ public class ScoreManager : MonoBehaviour
 
     public void DisplayScore()
     {
-        if(scoreTxt != null) scoreTxt.text = "Score: " + currentScore.ToString();
-        if(highScoreTxt != null) highScoreTxt.text = "High Score: " + highScore.ToString();
+        if (scoreTxt != null) scoreTxt.text = "Score: " + currentScore.ToString();
+        if (highScoreTxt != null) highScoreTxt.text = "High Score: " + highScore.ToString();
     }
 
     public void SaveHighScore()
     {
         PlayerPrefs.SetInt("HighScore", highScore);
+    }
+    public void ResetScore()
+    {
+        currentScore = 0;
+        timeElapsed = 0;
+        DisplayScore();
     }
 }

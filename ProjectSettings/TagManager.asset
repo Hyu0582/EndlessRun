@@ -6,6 +6,13 @@ TagManager:
   tags:
   - Road
   - Sword
+  - Obstacle
+  - Portal
+  - Shield
+  - SapphireStaff
+  - EmeraldStaff
+  - RubyStaff
+  - ItemSpawner
   layers:
   - Default
   - TransparentFX
@@ -55,11 +62,14 @@ TagManager:
   - name: player
     uniqueID: 2031750807
     locked: 0
-  - name: UI
-    uniqueID: 2097595583
-    locked: 0
   - name: Flying
     uniqueID: 915974791
+    locked: 0
+  - name: Item
+    uniqueID: 2643584189
+    locked: 0
+  - name: UI
+    uniqueID: 2097595583
     locked: 0
   m_RenderingLayers:
   - Default

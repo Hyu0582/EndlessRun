@@ -1,5 +1,56 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &408071057628703015
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5448561940115812109}
+  - component: {fileID: 5377648881127910856}
+  m_Layer: 0
+  m_Name: SkillManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5448561940115812109
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408071057628703015}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.58, y: -0.1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6891796793504687171}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5377648881127910856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408071057628703015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a4f0d02a20903a488b09f874c0396ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefabs:
+  - key: Bolt
+    value: {fileID: 3614438661441915687, guid: a4016a666e4dcb243ba0ab93b9ac1c33, type: 3}
+  - key: Spark
+    value: {fileID: 1776613643457394061, guid: 102ca4a09db41174f8e259a98c351b35, type: 3}
+  - key: Fire
+    value: {fileID: 7973283505234735062, guid: 9ec2501050e4cf7478a0bf316bc1a661, type: 3}
 --- !u!1 &437146501455348927
 GameObject:
   m_ObjectHideFlags: 0
@@ -16,6 +67,7 @@ GameObject:
   - component: {fileID: 387222986024614848}
   - component: {fileID: 83177986449264329}
   - component: {fileID: 7300099090408829883}
+  - component: {fileID: 402950642997198663}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -37,6 +89,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3440591423620049427}
+  - {fileID: 5448561940115812109}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6010594561337275846
@@ -131,7 +184,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 3
+  m_GravityScale: 5
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -237,8 +290,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ea3121db8a49d147850f2aa2da11472, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   yUnder: -5.265
-  jumpForce: 16
+  jumpForce: 22
   baseSpeed: 10
   speed: 10
   boxOffset: {x: 0, y: 0}
@@ -256,6 +310,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e50399c3ca44676449dc31bd5e1a8524, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &402950642997198663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437146501455348927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0c93a39d716cb04ebdc50988eae7321, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &7484316137361658911

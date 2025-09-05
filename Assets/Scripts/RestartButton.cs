@@ -2,8 +2,9 @@ using UnityEngine;
 
 public class RestartButton : BaseButton
 {
+    [System.Obsolete]
     void OnMouseDown()
     {
-        gameManager.StartGame();
+        gameManager.RestartGame();
     }
 }

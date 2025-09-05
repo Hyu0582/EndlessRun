@@ -19,12 +19,6 @@ public class AudioManager : MonoBehaviour
         PlayBgMusic();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     public void PlayBgMusic()
     {
         bgAudioSource.clip = bgAudioClip;
@@ -33,11 +27,11 @@ public class AudioManager : MonoBehaviour
 
     public void PlaySfxJump()
     {
-        effectAudioSource.PlayOneShot(jumpAudioClip);
+        if (effectAudioSource != null) effectAudioSource.PlayOneShot(jumpAudioClip);
     }
     public void PlaySfxStab()
     {
-        effectAudioSource.PlayOneShot(stabAudioClip);
+        if (effectAudioSource != null) effectAudioSource.PlayOneShot(stabAudioClip);
     }
 
     public void PlaySfxItem()
@@ -46,7 +40,7 @@ public class AudioManager : MonoBehaviour
     }
     public void PlaySfxSelect()
     {
-        effectAudioSource.PlayOneShot(selectAudioClip);
+        if (effectAudioSource != null) effectAudioSource.PlayOneShot(selectAudioClip);
     }
     public void PlaySfxEnd()
     {

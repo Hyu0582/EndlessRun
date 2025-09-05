@@ -9,8 +9,10 @@ public class CameraFollow : MonoBehaviour
     [SerializeField] private Vector2 maxBounds;
     [SerializeField]private Camera mainCamera;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    private void Awake() {
+    private void Awake()
+    {
         mainCamera = GetComponent<Camera>();
+        target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
     }
     void Start()
     {
