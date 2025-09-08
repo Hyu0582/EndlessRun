@@ -34,6 +34,7 @@ public class ScoreManager : MonoBehaviour
     {
         try
         {
+            if (PlayerPrefs.GetInt($"HighScore_{playerId}") == 0) return;
             var scoreResponse = await LeaderboardsService.Instance.AddPlayerScoreAsync(LeaderboardId, highScore);
             Debug.Log($"HighScore {highScore} submitted to leaderboard {LeaderboardId}. Entry: {scoreResponse.Score}");
         }

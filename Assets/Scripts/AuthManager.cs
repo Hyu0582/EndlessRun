@@ -8,6 +8,8 @@ using System.Text;
 using UnityEngine.UI;
 using Unity.Services.Leaderboards.Models;
 using Unity.Services.Leaderboards;
+using System.Net.Mail;
+using Unity.Services.Leaderboards.Exceptions;
 
 public class AuthManager : MonoBehaviour
 {
@@ -86,10 +88,29 @@ public class AuthManager : MonoBehaviour
             
             // Lấy HighScore từ leaderboard
             int localHighScore = PlayerPrefs.GetInt($"HighScore_{AuthenticationService.Instance.PlayerId}", 0);
-            LeaderboardEntry playerEntry = await LeaderboardsService.Instance.GetPlayerScoreAsync(LeaderboardId);
-            int onlineHighScore = (int)(playerEntry?.Score ?? 0);
             
-            // Chọn điểm cao nhất
+            int onlineHighScore = 0;
+            try
+            {
+                Debug.Log("CHECK 1: ");
+                LeaderboardEntry playerEntry = await LeaderboardsService.Instance.GetPlayerScoreAsync(LeaderboardId);
+                Debug.Log("CHECK 2: Lấy điểm thành công từ Leaderboards");
+                onlineHighScore = (int)(playerEntry?.Score ?? 0);
+                Debug.Log($"CHECK 3: OnlineHighScore = {onlineHighScore}");
+            }
+            catch (LeaderboardsException) // Bắt đúng ngoại lệ
+            {
+                
+                    Debug.LogWarning($"No score found for player on leaderboard {LeaderboardId}. Setting onlineHighScore to 0.");
+                    onlineHighScore = 0;
+                
+            }
+            catch (Exception ex) // Bắt các ngoại lệ khác
+            {
+                Debug.LogError($"Unexpected error while fetching leaderboard score: {ex.Message}");
+                onlineHighScore = 0;
+            }
+            
             int finalHighScore = Mathf.Max(localHighScore, onlineHighScore);
             scoreManager.SetPlayerId(AuthenticationService.Instance.PlayerId);
             scoreManager.SetHighScore(finalHighScore);
