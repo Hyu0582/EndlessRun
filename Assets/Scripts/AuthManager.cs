@@ -31,12 +31,15 @@ public class AuthManager : MonoBehaviour
     private async Task UpdateInfoAsync()
     {
         string playerName;
-        int highScore = PlayerPrefs.GetInt("HighScore_" + AuthenticationService.Instance.PlayerId, 0); // Lấy HighScore từ PlayerPrefs, mặc định là 0 nếu không có
 
+        int highScore;
         if (PlayerPrefs.GetInt(anonymous) == 1)
         {
             // Người chơi ẩn danh
             playerName = "Guest";
+            highScore = PlayerPrefs.GetInt("HighScore_Guest", 0);
+            scoreManager.SetPlayerId("Guest");
+            scoreManager.SetHighScore(highScore);
         }
         else
         {
@@ -48,8 +51,14 @@ public class AuthManager : MonoBehaviour
             {
                 playerName = AuthenticationService.Instance.PlayerId;
             }
+
+            highScore = PlayerPrefs.GetInt("HighScore_" + AuthenticationService.Instance.PlayerId, 0);
+            scoreManager.SetPlayerId(AuthenticationService.Instance.PlayerId);
+            scoreManager.SetHighScore(highScore);
         }
+        
         userNameTxt.text = "username: " + playerName.ToString();
+        
         Debug.Log("HighScore: " + highScore);
     }
     // private async Task SignInWithUnityAsync()
@@ -73,7 +82,7 @@ public class AuthManager : MonoBehaviour
         {
             await AuthenticationService.Instance.SignInWithUnityAsync(PlayerAccountService.Instance.AccessToken);
             PlayerPrefs.SetInt(anonymous, 0);
-            scoreManager?.SetPlayerId(AuthenticationService.Instance.PlayerId);
+            scoreManager.SetPlayerId(AuthenticationService.Instance.PlayerId);
             
             // Lấy HighScore từ leaderboard
             int localHighScore = PlayerPrefs.GetInt($"HighScore_{AuthenticationService.Instance.PlayerId}", 0);
@@ -82,6 +91,7 @@ public class AuthManager : MonoBehaviour
             
             // Chọn điểm cao nhất
             int finalHighScore = Mathf.Max(localHighScore, onlineHighScore);
+            scoreManager.SetPlayerId(AuthenticationService.Instance.PlayerId);
             scoreManager.SetHighScore(finalHighScore);
             await scoreManager.UpdateLeaderboardScore(finalHighScore);
             
@@ -137,15 +147,24 @@ public class AuthManager : MonoBehaviour
                         {
                             Debug.Log("No previous session found. Please sign in again.");
                             PlayerPrefs.SetInt(anonymous, 1);
-                            await UpdateInfoAsync();
+                            //await UpdateInfoAsync();
+                            UpdateUI();
                         }
                     }
                     catch (Exception ex)
                     {
                         Debug.LogError($"Failed to restore session: {ex.Message}");
                         PlayerPrefs.SetInt(anonymous, 1);
-                        await UpdateInfoAsync();
+                        //await UpdateInfoAsync();
+                        UpdateUI();
                     }
+                }
+                else
+                {
+                    Debug.Log("Anonymous");
+                    PlayerPrefs.SetInt(anonymous, 1);
+                    //await UpdateInfoAsync();
+                    UpdateUI();
                 }
             }
         }
@@ -206,12 +225,14 @@ public class AuthManager : MonoBehaviour
             signOutBtn.SetActive(true);
             signInBtn.SetActive(false);
             leaderboardBtn.SetActive(true);
+            scoreManager.SetPlayerId(AuthenticationService.Instance.PlayerId);
         }
         else
         {
             signInBtn.SetActive(true);
             signOutBtn.SetActive(false);
             leaderboardBtn.SetActive(false);
+            scoreManager.SetPlayerId("Guest");
         }
         _ = UpdateInfoAsync();
         SetException(null);

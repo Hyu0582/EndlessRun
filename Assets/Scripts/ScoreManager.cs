@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Unity.Services.Leaderboards;
 using Unity.Services.Leaderboards.Exceptions;
 using UnityEngine.SceneManagement;
+using Unity.Services.Authentication;
 
 public class ScoreManager : MonoBehaviour
 {
@@ -16,8 +17,9 @@ public class ScoreManager : MonoBehaviour
 
     [SerializeField] private GameManager gameManager;
     private LeaderBoardManager leaderBoardManager;
-    private string playerId = "Guest"; // Mặc định cho anonymous
+    private string playerId;
     private const string LeaderboardId = "HighScoreLB";
+    private const string anonymous = "IsAnonymous";
     private PlayerController player;
 
     void Awake()
@@ -48,6 +50,7 @@ public class ScoreManager : MonoBehaviour
 
     void Start()
     {
+        playerId = (AuthenticationService.Instance.IsSignedIn && PlayerPrefs.GetInt(anonymous) == 0) ? AuthenticationService.Instance.PlayerId : "Guest";
         timeElapsed = 0;
         currentScore = 0;
         highScore = PlayerPrefs.HasKey($"HighScore_{playerId}") ? PlayerPrefs.GetInt($"HighScore_{playerId}") : 0;
@@ -76,7 +79,8 @@ public class ScoreManager : MonoBehaviour
         {
             highScore = currentScore;
             SaveHighScore();
-            await UpdateLeaderboardScore(highScore);
+            if(AuthenticationService.Instance.IsSignedIn
+            && PlayerPrefs.GetInt(anonymous) == 0) await UpdateLeaderboardScore(highScore);
              
         }
     }
@@ -101,11 +105,10 @@ public class ScoreManager : MonoBehaviour
 
     public void SetHighScore(int newHighScore)
     {
-        if (newHighScore > highScore)
-        {
-            highScore = newHighScore;
-            SaveHighScore();
-            DisplayScore();
-        }
+        PlayerPrefs.SetInt($"HighScore_{playerId}", newHighScore);
+        highScore = newHighScore;
+        Debug.Log($"new HighScore_{playerId}: {newHighScore}");
+        DisplayScore();
+        
     }
 }

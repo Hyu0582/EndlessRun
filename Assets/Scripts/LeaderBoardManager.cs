@@ -33,7 +33,7 @@ public class LeaderBoardManager : MonoBehaviour
         {
             if (scrollView == null)
             {
-                Debug.Log("Không cso scroll view");
+                Debug.Log("Không co scroll view");
                 return;
             }
             // Xóa các mục cũ trong Content
