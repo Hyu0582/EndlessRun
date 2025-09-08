@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     private float baseSpeed = 10f;
     private float maxSpeed = 15f;
     private float currentSpeed;
+    private const int maxLevel = 5;
     void Awake()
     {
         scoreManager = FindFirstObjectByType<ScoreManager>();
@@ -35,12 +36,16 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene("Level" + "0" + level.ToString());
     }
+    public void LoadLeaderBoard()
+    {
+        SceneManager.LoadScene("LeaderBoard");
+    }
     public void LoadRandomLevel()
     {
         int nextLevel;
         do
         {
-            nextLevel = Random.Range(1, 6);
+            nextLevel = Random.Range(1, maxLevel + 1);
         } while (currentLevel == nextLevel);
         currentLevel = nextLevel;
         PlayerPrefs.SetInt("CurrentLevel", nextLevel);
