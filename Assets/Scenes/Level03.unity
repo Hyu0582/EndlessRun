@@ -339,11 +339,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefabObstacles:
-  - {fileID: 1785641235062206696, guid: bcf06565b815f604bab980db50d70e68, type: 3}
+  - {fileID: 7697110542567955022, guid: 3927b66d41c03db44929ba76a8ba46e9, type: 3}
   - {fileID: 8068165821698256371, guid: eb912935a14515940973da4a79886161, type: 3}
   - {fileID: 9167621088206649617, guid: a91241137b9cfb443a2b761949d3179d, type: 3}
-  - {fileID: 4369997546640807385, guid: 0f761f6e1541cc04a9ce50e1bc39a415, type: 3}
-  - {fileID: 7107494564389254157, guid: 458921968b4a6934c82d09db17f6cce4, type: 3}
+  - {fileID: 2516859941045057334, guid: 20257d2414be4624c8240496d6800dac, type: 3}
+  - {fileID: 2516859941045057334, guid: 20257d2414be4624c8240496d6800dac, type: 3}
   - {fileID: 125393628093294492, guid: 2ee5ad864d7851e4b97eea51f80ff26d, type: 3}
   spawnRates:
   - 0.3

@@ -8,12 +8,14 @@ public class PlayerCollisionController : MonoBehaviour
     private AudioManager audioManager;
     private SpriteRenderer playerSprite;
     private SkillManager skillManager;
+    private ItemSpawner itemSpawner;
     private bool isShielded;
     void Start()
     {
         gameManager = FindAnyObjectByType<GameManager>();
         audioManager = FindAnyObjectByType<AudioManager>();
         skillManager = FindAnyObjectByType<SkillManager>();
+        itemSpawner = FindAnyObjectByType<ItemSpawner>();
         playerSprite = GetComponent<SpriteRenderer>();
         isShielded = false;
     }
@@ -36,6 +38,8 @@ public class PlayerCollisionController : MonoBehaviour
         else if (collision.gameObject.CompareTag("Portal"))
         {
             Debug.Log("Chuyển level");
+            //gameManager.LoadLevel(7);
+            itemSpawner.ResetState();
             gameManager.LoadRandomLevel();
         }
         else if (collision.gameObject.CompareTag("Shield"))

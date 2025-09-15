@@ -29,7 +29,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -3.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: -1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -135,14 +135,14 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.091233015, y: 4.6947227}
-      - {x: -0.033469677, y: 4.571942}
+    - - {x: -0.011426672, y: 4.5407324}
+      - {x: -0.08479952, y: 4.335823}
       - {x: -0.11513543, y: 4.276107}
       - {x: -0.1573441, y: 4.1372623}
       - {x: -0.21919751, y: 3.4826686}
       - {x: -0.23199844, y: 0.49995637}
       - {x: 0.23197103, y: 0.49491215}
-      - {x: 0.16031575, y: 4.690129}
+      - {x: 0.15004973, y: 4.5156064}
   m_UseDelaunayMesh: 0
 --- !u!114 &-4267394732069240498
 MonoBehaviour:

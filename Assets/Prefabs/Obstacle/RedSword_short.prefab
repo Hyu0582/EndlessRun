@@ -135,12 +135,12 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.007803783, y: 3.5594993}
-      - {x: -0.1331107, y: 3.3585708}
+    - - {x: -0.08473477, y: 3.3916497}
+      - {x: -0.11912346, y: 3.16974}
       - {x: -0.18902917, y: 2.321015}
       - {x: -0.19155523, y: 0.5013175}
       - {x: 0.12514178, y: 0.50131774}
-      - {x: 0.08263712, y: 3.5551567}
+      - {x: 0.06165594, y: 3.4012947}
   m_UseDelaunayMesh: 0
 --- !u!114 &-3091777792642970242
 MonoBehaviour:
@@ -154,5 +154,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec56d0fd7b93a7438a16511b32e4979, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseSpeed: 15
   deadZOne: -15

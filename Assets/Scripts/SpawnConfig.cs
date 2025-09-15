@@ -4,7 +4,10 @@ using System;
 public enum SpawnMode
 {
     Normal,    // Spawn bình thường
+    Double,
     Wave,      // Spawn theo hình sóng
+    WaveExtra,
+    
 }
 
 [SerializeField] public struct SpawnModeConfig

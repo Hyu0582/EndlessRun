@@ -280,10 +280,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefabObstacles:
   - {fileID: 9167621088206649617, guid: a91241137b9cfb443a2b761949d3179d, type: 3}
+  - {fileID: 8164085804330603487, guid: 211a422a03413cd47b7ebd881fa77b83, type: 3}
   - {fileID: 125393628093294492, guid: 2ee5ad864d7851e4b97eea51f80ff26d, type: 3}
-  - {fileID: 1103655923595557675, guid: 43198ab68df3a374ba59ed2851c8ddf6, type: 3}
-  - {fileID: 1785641235062206696, guid: bcf06565b815f604bab980db50d70e68, type: 3}
-  - {fileID: 7107494564389254157, guid: 458921968b4a6934c82d09db17f6cce4, type: 3}
+  - {fileID: 8164085804330603487, guid: 211a422a03413cd47b7ebd881fa77b83, type: 3}
+  - {fileID: 7163118267307888352, guid: de2057091e0aaa948977aa19272ef9ad, type: 3}
   - {fileID: 8304016964643731245, guid: ad963eb9ef5c7be4896aa1869761afe6, type: 3}
   spawnRates:
   - 0.3

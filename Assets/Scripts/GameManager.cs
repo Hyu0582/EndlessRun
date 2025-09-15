@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
     private float baseSpeed = 10f;
     private float maxSpeed = 15f;
     private float currentSpeed;
-    private const int maxLevel = 5;
+    private const int maxLevel = 9;
     void Awake()
     {
         scoreManager = FindFirstObjectByType<ScoreManager>();
@@ -57,10 +57,11 @@ public class GameManager : MonoBehaviour
     }
     public void StartGame()
     {
+
         Time.timeScale = 1;
         currentLevel = 1;
         PlayerPrefs.SetInt("CurrentLevel", 1);
-        currentSpeed = baseSpeed;
+        currentSpeed = baseSpeed = 10f;
         LoadLevel(1);
     }
 

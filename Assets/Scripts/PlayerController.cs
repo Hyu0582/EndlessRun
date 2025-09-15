@@ -210,11 +210,11 @@ public class PlayerController : DontDestroy
         // }
         if (IsAnimationPlaying("roll"))
         {
-            capsuleColl.size = new Vector2(0.68f, 0.8f);
+            capsuleColl.size = new Vector2(0.54f, 0.8f);
         }
         else
         {
-            capsuleColl.size = new Vector2(0.68f, 1.6f);
+            capsuleColl.size = new Vector2(0.54f, 1.6f);
         }
     }
     bool IsAnimationPlaying(string animationName)
