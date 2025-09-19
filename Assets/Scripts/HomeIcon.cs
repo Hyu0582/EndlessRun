@@ -1,9 +1,10 @@
 using UnityEngine;
 
-public class HomeIcon : BaseButton
+public class HomeButton : BaseButton
 {
-    void OnMouseDown()
+    protected override void OnButtonClick()
     {
+        base.OnButtonClick(); // Phát âm thanh từ BaseButton
         Time.timeScale = 1;
         gameManager.LoadMainMenu();
     }

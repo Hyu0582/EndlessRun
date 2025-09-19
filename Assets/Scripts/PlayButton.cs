@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class PlayButton : BaseButton
 {
-    //đã có 2 cái hàm thay đổi hình ảnh khi rê chuột
-    void OnMouseDown()
+    protected override void OnButtonClick()
     {
+        base.OnButtonClick(); // Phát âm thanh từ BaseButton
         gameManager.StartGame();
     }
 }

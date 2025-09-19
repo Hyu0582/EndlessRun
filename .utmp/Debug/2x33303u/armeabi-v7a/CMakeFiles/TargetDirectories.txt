@@ -1,0 +1,8 @@
+D:/0306231291/unity/EndlessRun/.utmp/Debug/2x33303u/armeabi-v7a/CMakeFiles/edit_cache.dir
+D:/0306231291/unity/EndlessRun/.utmp/Debug/2x33303u/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+D:/0306231291/unity/EndlessRun/.utmp/Debug/2x33303u/armeabi-v7a/GameActivity/CMakeFiles/game.dir
+D:/0306231291/unity/EndlessRun/.utmp/Debug/2x33303u/armeabi-v7a/GameActivity/CMakeFiles/edit_cache.dir
+D:/0306231291/unity/EndlessRun/.utmp/Debug/2x33303u/armeabi-v7a/GameActivity/CMakeFiles/rebuild_cache.dir
+D:/0306231291/unity/EndlessRun/.utmp/Debug/2x33303u/armeabi-v7a/FramePacing/CMakeFiles/swappywrapper.dir
+D:/0306231291/unity/EndlessRun/.utmp/Debug/2x33303u/armeabi-v7a/FramePacing/CMakeFiles/edit_cache.dir
+D:/0306231291/unity/EndlessRun/.utmp/Debug/2x33303u/armeabi-v7a/FramePacing/CMakeFiles/rebuild_cache.dir

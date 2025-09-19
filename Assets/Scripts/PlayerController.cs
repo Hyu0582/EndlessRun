@@ -19,6 +19,7 @@ public class PlayerController : DontDestroy
     private bool isDoubleJump;
     private bool canDoubleJump;
     private bool isRolling;
+    public float rollDuration = 0.25f;
     private float yNormal = -1.725f;
     public float yUnder = -5.265f;
     [SerializeField] private float jumpForce = 16;
@@ -79,13 +80,10 @@ public class PlayerController : DontDestroy
     }
     public void HandleMoveInput()
     {
-        // Xử lý khi nhấn phím UpArrow
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             HandleButtonUp();
         }
-
-        // Xử lý nhấn phím DownArrow
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
             HandleButtonDown();
@@ -103,6 +101,7 @@ public class PlayerController : DontDestroy
         if (isUnder)
         {
             isRolling = true; // Kích hoạt animation xoay
+            animator.Update(0f);
             rigidBody.bodyType = RigidbodyType2D.Kinematic; // Đặt thành Kinematic để xuyên qua
             StartCoroutine(MoveToNormal()); // Di chuyển và xoay lên trên
         }
@@ -120,6 +119,7 @@ public class PlayerController : DontDestroy
         {
             rigidBody.linearVelocity = new Vector2(rigidBody.linearVelocity.x, jumpForce * 0.9f);
             isRolling = true;
+            animator.Update(0f);
             canDoubleJump = false; // Vô hiệu hóa nhảy kép sau khi sử dụng
             isDoubleJump = true;
             speed = 0;
@@ -132,6 +132,7 @@ public class PlayerController : DontDestroy
         if (!isGrounded || isUnder) return;
         speed = 0;
         isRolling = true; // Kích hoạt animation xoay
+        animator.Update(0f);
         rigidBody.bodyType = RigidbodyType2D.Kinematic; // Đặt thành Kinematic để xuyên qua
         rigidBody.linearVelocity = new Vector2(rigidBody.linearVelocity.x, 0);
         StartCoroutine(MoveUnderGround());
@@ -139,7 +140,7 @@ public class PlayerController : DontDestroy
 
     private IEnumerator MoveUnderGround()
     {
-        float duration = 0.25f; // Thời gian di chuyển và animation
+        float duration = rollDuration; // Thời gian di chuyển và animation
         float elapsed = 0f;
         Vector3 startPos = transform.position;
         Vector3 targetPos = new(transform.position.x, yUnder, transform.position.z);
@@ -161,7 +162,7 @@ public class PlayerController : DontDestroy
 
     private IEnumerator MoveToNormal()
     {
-        float duration = 0.25f; // Thời gian di chuyển và animation
+        float duration = rollDuration; // Thời gian di chuyển và animation
         float elapsed = 0f;
         Vector3 startPos = transform.position;
         Vector3 targetPos = new(transform.position.x, yNormal, transform.position.z);

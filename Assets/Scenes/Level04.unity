@@ -321,7 +321,7 @@ Transform:
   m_GameObject: {fileID: 1696315035}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 20.02, y: -3.5, z: 0}
+  m_LocalPosition: {x: 20, y: -3.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -359,6 +359,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 154172620667926645, guid: 2cfaf719ae9743c4bb5453151b3d9c07, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4964178648313437131, guid: 2cfaf719ae9743c4bb5453151b3d9c07, type: 3}
       propertyPath: m_Name
       value: BuildingBG
@@ -402,6 +406,14 @@ PrefabInstance:
     - target: {fileID: 5909122236938904728, guid: 2cfaf719ae9743c4bb5453151b3d9c07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6190763484237076458, guid: 2cfaf719ae9743c4bb5453151b3d9c07, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7579010756569543734, guid: 2cfaf719ae9743c4bb5453151b3d9c07, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -5,6 +5,7 @@ public class ItemSpawner : DontDestroy
     [SerializeField] private GameObject[] buffItems;
     [SerializeField] private GameObject portal;
     private float timeSpawnBuff = 50f;
+    //private float timeSpawnPortal = 5f;
     private float timeSpawnPortal = 120f;
     private float timerBuff;
     private float timerPortal;

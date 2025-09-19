@@ -1,32 +1,23 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BaseButton : MonoBehaviour
 {
-    public Sprite btnNormal;
-    public Sprite btnEnter;
-    private SpriteRenderer sr;
-    public GameManager gameManager;
-    private AudioManager audioManager;
-    void Start()
+    [SerializeField] protected Button button; // Kéo Button component vào đây
+    [SerializeField] protected GameManager gameManager;
+    [SerializeField] protected AudioManager audioManager;
+
+    [System.Obsolete]
+    protected virtual void Awake()
     {
-        sr = GetComponent<SpriteRenderer>();
-        gameManager = FindAnyObjectByType<GameManager>();
-        audioManager = FindAnyObjectByType<AudioManager>();
+        button = GetComponent<Button>();
+        gameManager = FindObjectOfType<GameManager>(); // Hoặc assign trong Inspector
+        audioManager = FindObjectOfType<AudioManager>(); // Hoặc assign trong Inspector
+        button.onClick.AddListener(OnButtonClick); // Gọi hàm khi nhấn
     }
 
-    void OnMouseEnter()
+    protected virtual void OnButtonClick()
     {
-        if (btnEnter != null)
-        {
-            sr.sprite = btnEnter;
-            audioManager.PlaySfxSelect();
-        }
-    }
-    void OnMouseExit()
-    {
-        if (btnNormal != null)
-        {
-            sr.sprite = btnNormal;
-        }
+        if(audioManager != null) audioManager.PlaySfxSelect(); // Phát âm thanh khi nhấn
     }
 }
